@@ -1,0 +1,24 @@
+{
+  "name": "labsystech-tt",
+  "version": "1.0.0",
+  "description": "Тестовое задание для labsystech",
+  "homepage": "https://github.com/kutuluk/labsystech-tt#readme",
+  "bugs": {
+    "url": "https://github.com/kutuluk/labsystech-tt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutuluk/labsystech-tt.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
