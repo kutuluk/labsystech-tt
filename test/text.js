@@ -38,8 +38,7 @@ const test = (array) => {
 
   const stupid = array.join(",");
 
-  //console.log('%s -> "%s" (%s) -> %s', array, str, str.length, back);
-
+  //console.log('%s -> "%s" -> %s', array, str, back);
   console.log(stupid.length / str.length);
 
   return { back, ratio: stupid.length / str.length };
